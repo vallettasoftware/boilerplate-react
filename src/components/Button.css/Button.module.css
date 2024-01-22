@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--Cyan-700);
+  border: 0.25rem solid var(--Cyan-300);
+  transition: border 0.2s ease-in-out;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  width: max-content;
+}
+
+.button:hover {
+  border: 0.25rem solid var(--Cyan-500);
+}
+
+.text {
+  color: var(--Cyan-300);
+  font-size: 1.5rem;
+}

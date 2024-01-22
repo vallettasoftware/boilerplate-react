@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+
+.App__header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.App__count {
+  font-size: 2rem;
+  margin: 0;
+}
