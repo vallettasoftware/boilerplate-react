@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import { defineConfig, mergeConfig } from "vitest/config";
 import viteConfig from "./vite.config";
 
@@ -7,7 +6,7 @@ export default mergeConfig(
   defineConfig({
     test: {
       environment: "jsdom",
-      setupFiles: "./test/setup-vitest.ts",
+      setupFiles: "./setup/vitest.ts",
       include: ["**/*.test.tsx"],
     },
   })

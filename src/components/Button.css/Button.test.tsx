@@ -32,7 +32,7 @@ describe("Render the button correctly", () => {
   });
 
   test("should have a type of submit when specified", async () => {
-    render(<Button text="Click me!" onClick={() => {}} type="submit" />);
+    render(<Button text="Click me!" type="submit" />);
 
     const button = await screen.findByRole("button");
 
