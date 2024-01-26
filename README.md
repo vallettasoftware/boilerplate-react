@@ -1,29 +1,11 @@
-# README #
+# Boilerplate: React single page application
 
-This README would normally document whatever steps are necessary to get your application up and running.
+An enterprise SPA Web project template
+based on modern approaches and the latest version of React library.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## Features:
+- Quickly setup and configure your application.
+- [React](https://react.dev/) library lets you build user interfaces out of individual pieces called components.
+- **Typescript**: up-to-date version.
+- [Vite](https://vitejs.dev/) provides a modern development environment.
+- **Linter**: eslint + prettier = ❤️

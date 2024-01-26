@@ -11,7 +11,8 @@ export function App() {
 
   return (
     <div className="App">
-      <h1 className="App__header">Valletta Software</h1>
+      <h1 className="App__header">React Boilerplate</h1>
+      <h2>by Valletta Software Development</h2>
       <p className="App__count">{count}</p>
       <Button text="Click me!" onClick={handleClick} />
     </div>
